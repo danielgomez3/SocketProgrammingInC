@@ -74,7 +74,7 @@ Process:
 1. Server sends it back!  
 1. Depending on the protocol, client/server disconnect  
 
-* One Shot
+* [ ] One Shot
 client and server are going to shut down the connection once client recieves the info  
 Here's an example with a **One-shot** server  
   > Client: I need a picture!
@@ -120,3 +120,13 @@ If you want to bind to
 
 If you don't care what address or port you have, you can use the ip 0.0.0.0  
 
+##### What does the server need to do now?  
+
+On server end of socket:  
+1. we need to create a socket()  
+1. bind() that socket to an ip an port IOT:  
+1. listen() for connections  
+1. accept() connection  
+1. send() or recv() data
+
+For the client side, we connect()'ed with the connect() function, but this time we need to use bind().  
