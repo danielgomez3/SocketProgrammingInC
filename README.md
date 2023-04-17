@@ -5,8 +5,8 @@ This client-server tcp connection is used by executing both binaries which repre
 I wrote this program to get a clearer understanding of the backend of networking. When I eventually start to create my own servers an applications that require them, I would use this program as a foundation to establish a connection between a client and server. That way, it's easier to debug and customize, hence I chose C!  
 
 ![Screenshot of connection](screenshot_networkingc.png)  
-
-[Demonstration: Networking in C](https://youtu.be/NmL78i3G03w)  
+## Video Demonstration:
+[Sockets in C](https://youtu.be/NmL78i3G03w)  
 # Network Communication
 
 The architecture that I demonstrated in my code is a Client-Server model. I noticed that there were tutorials and sources readily available to do socket programming in python, but as an embedded systems enthusiast, I really wanted to challenge myself and learn thouroughly by choosing to do this in C.
