@@ -6,6 +6,9 @@ I wrote this program to get a clearer understanding of the backend of networking
 
 ![Screenshot of connection](screenshot_networkingc.png)  
 ## Video Demonstration:
+
+*Captions needed for quiet audio!
+
 [Sockets in C](https://youtu.be/NmL78i3G03w)  
 # Network Communication
 
